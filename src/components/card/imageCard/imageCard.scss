@@ -1,0 +1,18 @@
+$width: 18.1rem;
+.imageCardContainer {
+  width: $width;
+  height: 10rem;
+  // overflow: hidden;
+  margin: 0 5px;
+
+  img {
+    width: $width;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 5px;
+
+    // &:hover {
+    //     scale: 1.05;
+    // }
+  }
+}

@@ -1,0 +1,28 @@
+.sliderMainContsiner {
+  padding-top: 2%;
+  .sliderFlexContainer {
+    display: flex;
+
+    width: 100%;
+    padding: 10px 0px;
+
+    .sliderContainer {
+      display: flex;
+      scroll-behavior: smooth;
+      width: 100%;
+      overflow: hidden;
+      overflow-x: scroll;
+      gap: 0.5rem;
+      margin: auto;
+    }
+    .arrow {
+      width: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+}

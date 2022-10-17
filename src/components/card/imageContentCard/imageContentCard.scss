@@ -1,0 +1,17 @@
+.imageContentCardContainer {
+  margin: 0 5px;
+  .cardImage {
+    width: 18.1rem;
+    height: 10rem;
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+  .cardData {
+    text-align: left;
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
